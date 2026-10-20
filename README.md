@@ -2,7 +2,7 @@
 
 An analysis of NHS ambulance response times across England's 11 ambulance trusts, and how they relate to deprivation, age, health and rurality.
 
-**📊 Interactive dashboard:** [link coming soon](#) · run it yourself with `streamlit run dashboard/app.py`
+**📊 Interactive dashboard:** [link coming soon](https://nhs-ambulance-response-time.streamlit.app/) · run it yourself with `streamlit run dashboard/app.py`
 
 ![Average Category 2 response by ambulance trust](outputs/figures/01_trust_c2_last12.png)
 
