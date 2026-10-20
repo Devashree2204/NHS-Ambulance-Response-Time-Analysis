@@ -1,6 +1,6 @@
 @"
 # Data files are downloaded separately (see README)
-data/
+/data/
 
 # Settings folders from tools on this computer
 .agents/
