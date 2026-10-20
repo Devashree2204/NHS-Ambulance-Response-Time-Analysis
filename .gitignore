@@ -1,0 +1,14 @@
+@"
+# Data files are downloaded separately (see README)
+data/
+
+# Settings folders from tools on this computer
+.agents/
+.claude/
+
+# Jupyter and Python clutter
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+.DS_Store
+"@ | Set-Content -Path .gitignore -Encoding utf8

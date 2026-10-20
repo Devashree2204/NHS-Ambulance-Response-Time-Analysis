@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 270 300">
+  <!-- Original illustration: night skyline with a clock tower, fading into the sidebar -->
+  <defs>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0c2c63" stop-opacity="0"/>
+      <stop offset="0.35" stop-color="#14397a" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#0a1f47" stop-opacity="1"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.75" cy="0.35" r="0.5">
+      <stop offset="0" stop-color="#4f7fd6" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#4f7fd6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="270" height="300" fill="url(#fade)"/>
+  <rect width="270" height="300" fill="url(#glow)"/>
+  <g fill="#0b1a3c" opacity="0.95">
+    <!-- clock tower -->
+    <rect x="182" y="70" width="34" height="230"/>
+    <rect x="178" y="62" width="42" height="12"/>
+    <rect x="184" y="34" width="30" height="30"/>
+    <polygon points="184,34 199,4 214,34"/>
+    <rect x="197" y="0" width="4" height="8"/>
+    <!-- long building with turrets -->
+    <rect x="20" y="190" width="170" height="110"/>
+    <rect x="30" y="170" width="10" height="25"/><polygon points="30,170 35,158 40,170"/>
+    <rect x="70" y="174" width="10" height="20"/><polygon points="70,174 75,162 80,174"/>
+    <rect x="110" y="168" width="10" height="26"/><polygon points="110,168 115,154 120,168"/>
+    <rect x="150" y="174" width="10" height="20"/><polygon points="150,174 155,162 160,174"/>
+    <rect x="216" y="210" width="54" height="90"/>
+    <rect x="0" y="220" width="24" height="80"/>
+  </g>
+  <!-- clock face -->
+  <circle cx="199" cy="49" r="10" fill="#f1d58a" opacity="0.9"/>
+  <path d="M199 49 L199 42 M199 49 L204 51" stroke="#0b1a3c" stroke-width="1.6" stroke-linecap="round"/>
+  <!-- windows -->
+  <g fill="#f1d58a" opacity="0.55">
+    <rect x="36" y="210" width="5" height="9"/><rect x="56" y="210" width="5" height="9"/><rect x="76" y="210" width="5" height="9"/>
+    <rect x="96" y="210" width="5" height="9"/><rect x="116" y="210" width="5" height="9"/><rect x="136" y="210" width="5" height="9"/>
+    <rect x="156" y="210" width="5" height="9"/><rect x="36" y="236" width="5" height="9"/><rect x="76" y="236" width="5" height="9"/>
+    <rect x="116" y="236" width="5" height="9"/><rect x="156" y="236" width="5" height="9"/>
+    <rect x="192" y="96" width="4" height="10"/><rect x="202" y="96" width="4" height="10"/>
+    <rect x="192" y="130" width="4" height="10"/><rect x="202" y="130" width="4" height="10"/>
+    <rect x="228" y="226" width="5" height="8"/><rect x="246" y="240" width="5" height="8"/>
+  </g>
+</svg>

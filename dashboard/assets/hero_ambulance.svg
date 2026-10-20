@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" preserveAspectRatio="xMidYMid slice">
+  <!-- Original illustration: evening city skyline with an ambulance on the road -->
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1c2f6e"/>
+      <stop offset="0.35" stop-color="#4b4a96"/>
+      <stop offset="0.62" stop-color="#c7708a"/>
+      <stop offset="0.8" stop-color="#f4a261"/>
+      <stop offset="1" stop-color="#ffd59a"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.42" cy="0.62" r="0.35">
+      <stop offset="0" stop-color="#fff2c4" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#ffd59a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="road" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b3f5c"/>
+      <stop offset="1" stop-color="#1b1d2e"/>
+    </linearGradient>
+    <linearGradient id="trail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff6d8" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="trailRed" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff5a5a" stop-opacity="0"/>
+      <stop offset="1" stop-color="#ff7b6b" stop-opacity="0.9"/>
+    </linearGradient>
+    <radialGradient id="beacon" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#9fd0ff" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#3a8dff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="headlight" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fffbe6" stop-opacity="1"/>
+      <stop offset="1" stop-color="#fff3c0" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="checks" width="28" height="28" patternUnits="userSpaceOnUse">
+      <rect width="14" height="14" fill="#f3d21b"/><rect x="14" width="14" height="14" fill="#13873b"/>
+      <rect y="14" width="14" height="14" fill="#13873b"/><rect x="14" y="14" width="14" height="14" fill="#f3d21b"/>
+    </pattern>
+  </defs>
+
+  <rect width="960" height="300" fill="url(#sky)"/>
+  <rect width="960" height="300" fill="url(#sun)"/>
+
+  <!-- distant skyline -->
+  <g fill="#5d4f86" opacity="0.55">
+    <rect x="120" y="150" width="40" height="70"/><rect x="165" y="135" width="26" height="85"/>
+    <rect x="200" y="160" width="50" height="60"/><rect x="300" y="140" width="34" height="80"/>
+    <rect x="340" y="120" width="22" height="100"/><rect x="560" y="145" width="44" height="75"/>
+    <rect x="610" y="128" width="28" height="92"/><rect x="700" y="150" width="60" height="70"/>
+  </g>
+  <!-- main skyline -->
+  <g fill="#2a2f5e">
+    <rect x="60" y="175" width="60" height="60"/>
+    <rect x="128" y="160" width="34" height="75"/>
+    <!-- clock tower -->
+    <rect x="178" y="110" width="22" height="125"/><rect x="175" y="104" width="28" height="10"/>
+    <polygon points="178,104 189,72 200,104"/><rect x="187" y="62" width="4" height="12"/>
+    <rect x="215" y="168" width="70" height="67"/>
+    <rect x="292" y="130" width="30" height="105"/><rect x="326" y="96" width="24" height="139"/>
+    <polygon points="326,96 338,78 350,96"/>
+    <rect x="356" y="150" width="44" height="85"/>
+    <!-- dome -->
+    <rect x="410" y="170" width="70" height="65"/><path d="M415 172 a30 30 0 0 1 60 0 z"/><rect x="443" y="132" width="4" height="12"/>
+    <rect x="488" y="120" width="32" height="115"/><rect x="524" y="150" width="40" height="85"/>
+    <rect x="570" y="105" width="26" height="130"/><polygon points="570,105 583,86 596,105"/>
+    <rect x="602" y="160" width="58" height="75"/><rect x="668" y="140" width="34" height="95"/>
+    <rect x="708" y="170" width="80" height="65"/><rect x="796" y="132" width="30" height="103"/>
+    <rect x="832" y="160" width="60" height="75"/><rect x="898" y="148" width="62" height="87"/>
+  </g>
+  <!-- lit windows -->
+  <g fill="#ffd27a" opacity="0.75">
+    <rect x="298" y="140" width="4" height="5"/><rect x="310" y="152" width="4" height="5"/><rect x="298" y="168" width="4" height="5"/>
+    <rect x="333" y="110" width="4" height="5"/><rect x="341" y="128" width="4" height="5"/><rect x="333" y="150" width="4" height="5"/>
+    <rect x="495" y="132" width="4" height="5"/><rect x="507" y="148" width="4" height="5"/><rect x="495" y="170" width="4" height="5"/>
+    <rect x="577" y="120" width="4" height="5"/><rect x="586" y="140" width="4" height="5"/><rect x="577" y="162" width="4" height="5"/>
+    <rect x="675" y="150" width="4" height="5"/><rect x="688" y="170" width="4" height="5"/>
+    <rect x="804" y="146" width="4" height="5"/><rect x="814" y="166" width="4" height="5"/>
+    <rect x="905" y="160" width="4" height="5"/><rect x="920" y="178" width="4" height="5"/><rect x="940" y="166" width="4" height="5"/>
+  </g>
+
+  <!-- road -->
+  <path d="M0 236 L960 222 L960 300 L0 300 Z" fill="url(#road)"/>
+  <path d="M0 236 L960 222" stroke="#8a8fb3" stroke-width="2" opacity="0.6"/>
+  <!-- light trails -->
+  <path d="M0 262 C 250 252, 450 248, 700 244" stroke="url(#trail)" stroke-width="3" fill="none"/>
+  <path d="M0 272 C 260 262, 470 257, 720 252" stroke="url(#trail)" stroke-width="2" fill="none" opacity="0.8"/>
+  <path d="M0 284 C 270 274, 480 268, 740 262" stroke="url(#trailRed)" stroke-width="2.5" fill="none"/>
+  <path d="M120 296 L 560 270" stroke="#e6e6f0" stroke-width="2" stroke-dasharray="26 18" opacity="0.5"/>
+
+  <!-- ambulance (side view, facing left) -->
+  <g transform="translate(720 156) scale(0.82)">
+    <ellipse cx="120" cy="118" rx="140" ry="9" fill="#0d0f1c" opacity="0.6"/>
+    <!-- glow from beacons -->
+    <circle cx="70" cy="2" r="46" fill="url(#beacon)"/>
+    <circle cx="160" cy="2" r="40" fill="url(#beacon)"/>
+    <!-- rear box -->
+    <rect x="58" y="6" width="190" height="104" rx="8" fill="#fbfbf5"/>
+    <!-- cab -->
+    <path d="M58 36 L20 46 Q6 50 4 64 L4 104 Q4 110 10 110 L58 110 Z" fill="#fbfbf5"/>
+    <path d="M56 40 L24 49 Q14 52 13 62 L13 70 L56 70 Z" fill="#26334f"/>
+    <!-- windows -->
+    <rect x="72" y="18" width="40" height="22" rx="3" fill="#26334f"/>
+    <rect x="120" y="18" width="34" height="22" rx="3" fill="#26334f" opacity="0.85"/>
+    <!-- battenburg band -->
+    <rect x="4" y="74" width="244" height="28" fill="url(#checks)"/>
+    <rect x="4" y="72" width="244" height="3" fill="#1d4fb8"/>
+    <!-- markings -->
+    <rect x="168" y="44" width="70" height="20" rx="2" fill="#1d4fb8"/>
+    <rect x="175" y="51" width="56" height="6" rx="1" fill="#ffffff"/>
+    <!-- cross symbol (generic) -->
+    <rect x="128" y="45" width="6" height="20" fill="#2f9e44"/><rect x="121" y="52" width="20" height="6" fill="#2f9e44"/>
+    <!-- light bar -->
+    <rect x="62" y="0" width="26" height="8" rx="2" fill="#4aa3ff"/>
+    <rect x="150" y="0" width="22" height="8" rx="2" fill="#4aa3ff"/>
+    <!-- headlight -->
+    <rect x="2" y="84" width="8" height="10" rx="2" fill="#fff6c9"/>
+    <circle cx="-4" cy="90" r="30" fill="url(#headlight)"/>
+    <!-- wheels -->
+    <circle cx="44" cy="110" r="17" fill="#141622"/><circle cx="44" cy="110" r="8" fill="#9aa1b5"/>
+    <circle cx="200" cy="110" r="17" fill="#141622"/><circle cx="200" cy="110" r="8" fill="#9aa1b5"/>
+  </g>
+</svg>
